@@ -1,7 +1,7 @@
 ---
 inProgress: false
-title: Project title
+title: Descubre Parejas
 img_alt: project image alt text
-link: https://github.com/veranikabarel?tab=repositories
-tags: ['React', 'CSS', 'Typescript']
+link: https://descubre-parejas.vercel.app/
+tags: ['HTML', 'CSS', 'JavaScript']
 ---

@@ -16,6 +16,7 @@ module.exports = {
 			black: '#000',
 			white: '#fff',
 			orange: '#E06330',
+			cyan: '#33C1FF',
 		},
 		fontFamily: {
 			// Headings
@@ -34,6 +35,7 @@ module.exports = {
 			'3xl': '1.875rem',
 			'4xl': '2.25rem',
 			'5xl': '3rem',
+			'6xl': '4rem',
 		},
 		letterSpacing: {
 			wide: '.025em',
