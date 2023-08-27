@@ -5,6 +5,7 @@ import { getCollection } from 'astro:content';
 const projects = await getCollection('projects', ({ data }) => {
 	return !data.inProgress;
 });
+console.log(projects[0]);
 ---
 
 <section
@@ -22,6 +23,7 @@ const projects = await getCollection('projects', ({ data }) => {
 					title={project.data.title}
 					alt={project.data.img_alt}
 					tags={project.data.tags}
+					imagePath={project.data.imagePath}
 				/>
 			))
 		}

@@ -1,7 +1,6 @@
 ---
-import heroImage from '@assets/images/hero.png';
 import { Image } from '@astrojs/image/components';
-import Button from '@components/ui/Button.astro';
+import developerImage from '@assets/images/developer.png';
 ---
 
 <section
@@ -18,12 +17,12 @@ import Button from '@components/ui/Button.astro';
 	</div>
 	<div data-testid="hero-img" class="mb-10 flex w-1/2 items-center justify-center">
 		<Image
-			src={heroImage}
+			src={developerImage}
 			alt="Coding girl"
 			aspectRatio="4:4"
 			format="png"
-			width={600}
-			height={600}
+			width={800}
+			height={650}
 			loading="eager"
 		/>
 	</div>

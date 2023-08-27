@@ -8,9 +8,17 @@ interface Props {
 	title?: string;
 	tags: string[];
 	children?: HTMLElement | HTMLElement[];
+	imagePath?: string;
+	saludo?: string;
 }
 
-const { url = '#', alt = 'Project image', title = 'Project title', tags = ['Tags'] } = Astro.props;
+const {
+	url = '#',
+	alt = 'Project alt',
+	title = 'Project title',
+	tags = ['Tags'],
+	imagePath,
+} = Astro.props;
 ---
 
 <section class="w-full p-4 md:w-1/2 lg:w-1/3">
@@ -18,10 +26,10 @@ const { url = '#', alt = 'Project image', title = 'Project title', tags = ['Tags
 		data-testId="card"
 		class="rounded-xl bg-white p-3 shadow-lg duration-100 hover:scale-105 hover:transform hover:shadow-xl"
 	>
-		<a href={url} aria-label="link to project">
+		<a href={url} aria-label="link to project" target="_blank">
 			<div class="relative flex items-end overflow-hidden rounded-xl">
 				<Image
-					src={projectImage}
+					src={imagePath ?? projectImage}
 					alt={alt}
 					aspectRatio="4:4"
 					format="png"
