@@ -1,7 +1,8 @@
 ---
 inProgress: false
-title: Project title
-img_alt: project image alt text
-link: https://github.com/veranikabarel?tab=repositories
-tags: ['React', 'CSS', 'Typescript']
+title: Tres en raya
+img_alt: Tres en raya
+link: https://tres-en-raya-smoky.vercel.app/
+tags: ['Vite', 'React', 'CSS']
+imagePath: ../src/assets/images/tic-tac-toe.jpg
 ---
