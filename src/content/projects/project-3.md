@@ -1,7 +1,8 @@
 ---
 inProgress: false
-title: Project title
-img_alt: project image alt text
-link: https://github.com/veranikabarel?tab=repositories
-tags: ['React', 'CSS', 'Typescript']
+title: Listado de libros
+img_alt: Listado de libros
+link: https://next-reading-list-woad.vercel.app/
+tags: ['Next.js', 'React', 'Tailwind']
+imagePath: ../src/assets/images/lista-libros.jpg
 ---
