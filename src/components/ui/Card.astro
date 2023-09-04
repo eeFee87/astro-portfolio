@@ -2,6 +2,7 @@
 import projectImage from '@assets/images/project.png';
 import { Image } from '@astrojs/image/components';
 import Tags from '@components/ui/Tags.astro';
+
 interface Props {
 	url?: string;
 	alt?: string;
@@ -32,7 +33,7 @@ const {
 					src={imagePath ?? projectImage}
 					alt={alt}
 					aspectRatio="4:4"
-					format="png"
+					format="jpg"
 					width={400}
 					height={400}
 					loading="eager"
