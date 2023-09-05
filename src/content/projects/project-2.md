@@ -4,5 +4,5 @@ title: Tres en raya
 img_alt: Tres en raya
 link: https://tres-en-raya-smoky.vercel.app/
 tags: ['Vite', 'React', 'CSS']
-imagePath: ./src/assets/images/tic-tac-toe.jpg
+imagePath: ./tic-tac-toe.jpg
 ---
