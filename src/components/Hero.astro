@@ -1,5 +1,5 @@
 ---
-import { Image } from '@astrojs/image/components';
+import { Image } from 'astro:assets';
 import developerImage from '@assets/images/developer.png';
 ---
 
@@ -10,8 +10,10 @@ import developerImage from '@assets/images/developer.png';
 	<div class="mb-10 flex flex-col items-center lg:mb-0 lg:w-1/2">
 		<div>
 			<h1 class="mb-10 font-monospace text-3xl text-black dark:text-white lg:text-5xl">
-				Hola, mi nombre es <span class="text-4xl font-semibold text-orange lg:text-6xl">Fran</span> y
-				soy <span class="border-b-4 border-orange font-bold">Desarrollador Web</span>
+				Hola, mi nombre es <span class="text-4xl italic text-orange lg:text-6xl">Fran</span> y soy <span
+					class="animate-pulse border-orange font-bold">Desarrollador Web</span
+				>
+				<br />Full stack
 			</h1>
 		</div>
 	</div>
@@ -19,7 +21,6 @@ import developerImage from '@assets/images/developer.png';
 		<Image
 			src={developerImage}
 			alt="Coding girl"
-			aspectRatio="4:4"
 			format="png"
 			width={800}
 			height={650}
